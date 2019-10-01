@@ -1,0 +1,36 @@
+
+
+.lead__image {
+    
+    max-width: 984px;
+    
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__image {
+        max-width: 984px;
+        margin-left: calc(50% - 492px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 90.62vw;
+        margin-left: calc(50% - 45.31vw);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .lead__image {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .lead__image {
+        max-width: 100%;
+    }
+}
+
+

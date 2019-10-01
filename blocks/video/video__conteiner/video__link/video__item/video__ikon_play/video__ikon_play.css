@@ -1,0 +1,35 @@
+
+
+
+
+.video__ikon_play {
+    width: 41px;
+    position: absolute;
+    top:30px;
+    left: 30px;   
+}
+
+@media screen and (max-width: 1024px) {
+    .video__ikon_play {
+        max-width: 4vw;
+        top: 2.93vw;
+        left: 2.93vw;   
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .video__ikon_play {
+        max-width: 5.34vw;
+        top: 3.125vw;
+        left: 3.125vw;   
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .video__ikon_play {
+        max-width: 41px;
+        top: 5vw;
+        left: 5vw;   
+    }
+}
+

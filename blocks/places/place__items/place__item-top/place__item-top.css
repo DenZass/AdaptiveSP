@@ -1,0 +1,32 @@
+
+
+@import url(./place__title/place__title.css);
+@import url(./place__website/place__website.css);
+
+.place__item-top {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__item-top {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .place__item-top {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .place__item-top {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,28 @@
+
+
+
+@import url(./footer__blok/footer__blok.css);
+
+
+.footer  {
+    padding-top: 160px;
+}
+
+@media screen and (max-width :1024px) {
+    .footer  {
+        padding: 0 0 4.69vw 4.69vw;
+    }
+}
+
+@media screen and (max-width :769px) {
+    .footer  {
+        padding: 0 0 6.25vw 3.125vw;
+    }
+}
+
+@media screen and (max-width :426px) {
+    .footer  {
+        padding: 0 0 24px 16px;;
+    }
+}
+

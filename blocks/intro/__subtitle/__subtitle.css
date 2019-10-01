@@ -1,0 +1,28 @@
+
+
+.intro__subtitle {
+    max-width: 683px;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__subtitle {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .intro__subtitle {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .intro__subtitle {
+        display: none; 
+    }
+}
+

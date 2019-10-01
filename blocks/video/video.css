@@ -1,0 +1,23 @@
+
+
+@import url(./content-title/content-title.css);
+@import url(./content-subtitle/content-subtitle.css);
+@import url(./video__conteiner/video__conteiner.css);
+@import url();
+@import url();
+
+@media screen and (max-width: 1024px) {
+    .video {
+        padding: 13.2vw 0 0 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .video {
+        padding: 13.2vw 0 0 0;
+    }
+}
+@media screen and (max-width: 426px) {
+    
+}
+

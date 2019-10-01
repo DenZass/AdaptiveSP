@@ -1,0 +1,36 @@
+
+
+@import url('../vendor/normalize.css');
+@import url('../blocks/blocks.css');
+@import url('');
+@import url('');
+@import url('');
+
+
+body {
+    background-color : #2A2C2F;
+}
+
+/* @media screen and (max-width:426px) {
+    body {
+        background-color : #ffffff;
+    }
+} */
+
+/* div {
+    border: 1px solid red;
+}
+section {
+    border: 1px solid rgb(129, 7, 7);
+}
+
+p {
+    border: 1px solid red;
+}
+div {
+    border: 1px solid red;
+}
+h2 {
+    border: 0.1px solid red;
+} */
+

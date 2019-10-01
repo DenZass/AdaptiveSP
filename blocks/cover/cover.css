@@ -1,0 +1,35 @@
+
+
+@import url(./cover__title/cover__title.css);
+@import url(./cover__subtitle/cover__subtitle.css);
+@import url(./cover__box/cover__box.css);
+
+
+
+.cover {
+    padding-top: 100px; 
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding: 9.96vw 0 15.63vw 0; 
+    }
+}
+
+@media screen and (max-width:769px) {
+    .cover {
+        padding: 17.2vw 0 13.3vw 0; 
+    }
+}
+
+@media screen and (max-width:426px) {
+    .cover {
+        padding: 64px 0 64px 0; 
+    }
+}
+
+
+
+
+
+    

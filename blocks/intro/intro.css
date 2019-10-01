@@ -1,0 +1,37 @@
+
+
+@import url('./__title/__title.css');
+@import url('./__subtitle/__subtitle.css');
+@import url('./__content-row/__content-row.css');
+@import url('./__text/__text.css');
+
+.intro {
+    width: 984px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: calc(100% - 4.69vw);
+        padding: 7.81vw 0 0 4.69vw;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .intro {
+        max-width: 93.75vw;
+        padding: 10.4vw 3.125vw 10.5vw 3.125vw;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .intro {
+        max-width: 91%;
+        padding: 0 16px 64px 16px;
+        margin: 0;
+    }
+}
+
+

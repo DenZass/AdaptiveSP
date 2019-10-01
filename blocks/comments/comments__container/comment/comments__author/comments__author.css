@@ -1,0 +1,40 @@
+
+
+
+
+.comments__author {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;;
+        font-weight: bold;
+        margin: 1.66vw 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: bold;
+        text-align: center;
+        margin: 2.08vw 0 3.125vw 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: bold;
+        text-align: center;
+        margin: 17px 0 24px 0;
+    }
+}
+

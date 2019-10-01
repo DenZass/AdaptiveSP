@@ -1,0 +1,58 @@
+
+@import url(./comments__author/comments__author.css);
+@import url(./comments__image/comments__image.css);
+@import url(./comments__quote/comments__quote.css);
+@import url();
+@import url();
+
+
+.comment {
+    max-width: 382px;  
+}
+
+@media screen and (max-width: 1280px) {
+    .comment {
+        max-width: 29.85vw;  
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    .comment {
+        margin-left: 1.76vw;
+    }
+        
+    .comment:first-of-type {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .comment {
+        max-width: 100%;
+        padding: 10vw 0 0 0; 
+        margin: auto;
+    }
+    .comments_reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .comment:first-of-type {
+        padding: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .comment {
+        max-width: 100%;
+        padding: 47px 0 0 0; 
+        margin: auto;
+    }
+    .comments_reverse {
+        display: flex;
+        flex-direction: column-reverse ;
+    }
+    .comment:first-of-type {
+        padding: 47px 0 0 0;
+    }
+}
+

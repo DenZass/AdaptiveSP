@@ -1,0 +1,45 @@
+
+@import url(./video__link/video__link.css);
+
+
+.video__conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 48px 0 48px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .video__conteiner {
+        max-width: 90.63vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .video__conteiner {
+        max-width: 93.75vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .video__conteiner {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+}
+

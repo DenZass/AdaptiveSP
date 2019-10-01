@@ -1,0 +1,36 @@
+
+
+@import url(./link/link.css);
+
+
+.place__website {
+    margin-left: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        margin-left: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .place__website {
+        margin-left: 5.2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .place__website {
+        display: none;
+    }
+}
+

@@ -1,0 +1,57 @@
+
+
+
+
+.comments-subtitle {
+    width: 640px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 1280px) {
+    .comments-subtitle {
+        width: 50vw;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        margin: auto;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .comments-subtitle {
+        max-width: 62.5vw;
+        font-size: 2.35vw;
+        line-height: 3.32vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .comments-subtitle {
+        width: 91%;
+        font-size: 3.125vw;
+        line-height: 4.43vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 3.125vw;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .comments-subtitle {
+        width: 91%;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        margin: auto;
+        margin-top: 16px;
+    }
+}
+
